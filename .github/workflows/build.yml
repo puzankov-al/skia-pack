@@ -86,7 +86,7 @@ jobs:
 
   windows:
     if: github.event.inputs.job == 'all' || github.event.inputs.job == 'windows'
-    runs-on: [self-hosted, Windows, X64]
+    runs-on: windows-2022
     strategy:
       matrix:
 #        build_type: [Debug, Release]
