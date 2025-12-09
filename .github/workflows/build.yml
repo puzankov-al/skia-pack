@@ -1,10 +1,6 @@
 on:
   workflow_dispatch:
     inputs:
-      skip_release:
-        description: 'Skip release related steps? (true/false)'
-        required: true
-        default: 'true'
       job:
         description: "Which job to run"
         required: true
